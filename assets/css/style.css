@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap");
+
+:root {
+  --primary-color: #0587f6;
+  --primary-color-light: #cff5ff;
+  --secondary-color: #0343cf;
+  --danger-color: #f6050f;
+  --text-black: #37393a;
+  --white-color: #ffffff;
+  --green-color: #03cf29;
+  --container-lg: 85%;
+  --container-md: 80%;
+  --container-sm: 95%;
+  --font-roboto: "Roboto", sans-serif;
+}
+
+/* =============================================
+1.) GENERAL CSS
+================================================*/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* =============================================
+2.) TOPBAR
+================================================*/
+
+/* =============================================
+3.) NAVIGATION
+================================================*/
