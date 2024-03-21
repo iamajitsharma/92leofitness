@@ -75,6 +75,35 @@ a {
 /* =============================================
 2.) TOPBAR
 ================================================*/
+.topbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--primary-color);
+  padding: 0.6rem 0.6rem;
+  color: var(--primary-color-light);
+}
+
+.contact_info {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-left: 1.8rem;
+}
+
+.socialmedia {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-right: 2.5rem;
+}
+
+.socialmedia p {
+  font-size: 1.2rem;
+}
+
+
+
 
 /* =============================================
 3.) NAVIGATION
